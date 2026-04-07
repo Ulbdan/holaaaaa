@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Holaaaaa</title>
+</head>
+<body style="text-align:center; font-family:sans-serif;">
+  <h2>Tengo algo que preguntarte...</h2>
+  <p>¿Quieres ir a una cita a la librería el jueves conmigo? :3</p>
+
+  <button onclick="alert('Sabía que dirías que sí ❤️')">Sí</button>
+  <button onclick="moverBoton(this)">No</button>
+
+  <script>
+    function moverBoton(btn){
+      btn.style.position = 'absolute';
+      btn.style.top = Math.random()*80 + '%';
+      btn.style.left = Math.random()*80 + '%';
+    }
+  </script>
+</body>
+</html>
